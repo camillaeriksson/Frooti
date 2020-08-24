@@ -36,3 +36,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.info {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.info p {
+  font-family: brevia, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.3rem;
+  color: #ff4062;
+  text-align: center;
+}
