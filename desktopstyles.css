@@ -83,3 +83,23 @@ body {
   top: 7.9rem;
   margin: 0;
 }
+
+.just_fruit {
+  height: 37rem;
+  width: 70%;
+  background-image: url("media/pexels-element-digital-775031.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.just_fruit_text {
+  font-family: brevia, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #ff9c98;
+  font-size: 4rem;
+  margin: 0 3rem 2rem 0;
+}
