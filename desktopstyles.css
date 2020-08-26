@@ -7,13 +7,12 @@ body {
   height: 10rem;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .logo {
   width: 11rem;
   height: 7rem;
-  left: 15rem;
-  position: absolute;
 }
 
 .menu-text {
@@ -21,8 +20,6 @@ body {
   font-weight: 700;
   font-style: italic;
   font-size: 1.9rem;
-  right: 15rem;
-  position: absolute;
   color: #ff4062;
 }
 
@@ -195,4 +192,13 @@ body {
 
 .contacts p {
   margin: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .just_fruit {
+    width: 100%;
+  }
+  .products {
+    width: 70%;
+  }
 }
